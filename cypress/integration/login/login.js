@@ -23,3 +23,9 @@ Then ("A user login successfully",function(){
 Then ("A user should get an error message",function(){
     cy.get("h3[data-test='error']").should("have.text","Epic sadface: Sorry, this user has been locked out.")
 })
+
+Then ("A user should error message for invalid user",function(){
+})
+
+Then ("A user should error message for invalid username",function(){
+})
